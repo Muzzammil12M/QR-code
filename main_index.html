@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+      <title>Frontend Mentor | QR code component</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="googlefont" href="https://fonts.google.com/specimen/Outfit">
+      <style>
+        :root{
+          --White: hsl(0, 0%, 100%);
+          --Lightgray: hsl(212, 45%, 89%);
+          --Grayishblue: hsl(220, 15%, 55%);
+          --Darkblue: hsl(218, 44%, 22%);
+           }
+       body{
+          font-family: Outfit;
+          font-weight: 12.5em, 21.88em;
+          background:var(--Lightgray);
+          padding: 12.5em;
+          margin: auto;
+          font-size: 0.47em;
+            }
+       #body{
+          justify-content: center;
+          background: var(--White);
+          border-radius: 1.57em;
+          width: 25em;
+          height: 37.5em;
+          margin:auto;
+             }
+       .image{
+          border-radius: 0.94em;
+          width:21.88em;
+          margin:6% 6% 0 6%;
+          justify-content: center;
+              }
+       .words{
+          justify-items: center; 
+          padding:0 10%;
+              }
+       .para1{
+          font-size: 1.88em; 
+          justify-content: center;
+          font-weight: 6.25em;
+          text-align: center;
+              }
+       .para2{
+          color:grey;
+          font-size: 1.1em;
+          text-align: center; 
+            }
+        
+      </style>
+    </head>
+    <body>
+        <div id="body">
+          <div>
+            <img src="images/image-qr-code.png" alt="QR-code" class="image">
+          </div>
+          <div class="words">
+            <p class="para1">
+              Improve your front-end skills by building projects.
+            </p>
+            <p class="para2"> 
+              Scan the QR code to visit Frontend Mentor and take your coding skills to the next level Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a> Coded by <a href="#">Muzzammil</a>
+            </p>
+          </div>
+        </div>
+    </body>
+</html>
